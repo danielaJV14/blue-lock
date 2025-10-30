@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+
+body {
+  font-family: 'Sawarabi Mincho', serif;
+  background: linear-gradient(to bottom right, #ffeaf4, #fff8f2);
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  color: #4a2c2a;
+}
+
+h1 {
+  color: #e75b84;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px #fff;
+}
+
+/* Formulario */
+#formulario {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 2px solid #ffd6e0;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 0 auto 30px;
+  max-width: 400px;
+  box-shadow: 0 4px 10px rgba(255, 192, 203, 0.4);
+}
+
+#formulario h2 {
+  color: #d94c7b;
+  margin-bottom: 15px;
+}
+
+#formulario input {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ffd6e0;
+  font-size: 1em;
+}
+
+.btn {
+  background-color: #ffb7c5;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #ff9bb2;
+}
+
+#contenedor-productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.producto {
+  width: 200px;
+  background-color: #fff8f5;
+  border: 2px solid #ffc8c8;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(255, 182, 193, 0.3);
+  text-align: center;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  transition: transform 0.3s ease;
+}
+
+.producto:hover {
+  transform: scale(1.05);
+}
+
+.producto img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.producto h3 {
+  margin: 10px 0 5px;
+  color: #ff6f91;
+}
+
+.producto p {
+  color: #333;
+  font-weight: bold;
+}
